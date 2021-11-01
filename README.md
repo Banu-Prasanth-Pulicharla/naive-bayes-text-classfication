@@ -13,14 +13,14 @@ Note that the algorithm uses add-one laplace smoothing. Ignored punctuation and 
 Later, Improved the Naive Bayes by throwing away (i.e., filtering out) stop words such as `the` `of` and `for` from all the documents. A list of stop words can be found here: http://www.ranks.nl/stopwords.
 
 ## How to Run?
-a. Place the file `NaiveTextClassification.py` in a directory.
+a. Place the file `NaiveTextClassification.py` in a directory.  
 b. use below command to run the script -   
    ```
    python TextClassification.py
    ```
 c. Parameters for the script would be asked now. Please provide in below format -   
    ```
-   <Training Set Ham Path> <Training Set Spam Path> <Test Set Ham Path> <Test Set Spam Path>: 
+   <Training Set Ham Path> <Training Set Spam Path> <Test Set Ham Path> <Test Set Spam Path>
    ```
    Ex:-   
    ```
