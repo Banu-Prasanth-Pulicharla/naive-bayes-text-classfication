@@ -4,7 +4,7 @@ Implemented and evaluate Naive Bayes for text classification.
 
 Download the spam/ham (ham is not spam) dataset available on repo. The data set is divided into two sets: training set and test set. The dataset was used in the Metsis et al. paper [1]. Each set has two directories: spam and ham. All files in the spam folders are spam messages and all files in the ham folder are legitimate (non spam) messages.
 
-Implemented the multinomial Naive Bayes algorithm for text classification described here: http://nlp.stanford.edu/IR-book/pdf/13bayes.pdf (see Figure 13.2).
+Implemented the multinomial Naive Bayes algorithm for text classification described here: http://nlp.stanford.edu/IR-book/pdf/13bayes.pdf (*see Figure 13.2*).
 
 Note that the algorithm uses add-one laplace smoothing. Ignored punctuation and special characters and normalized words by converting them to lower case, converting plural words to singular (i.e., `Here` and `here` are the same word, `pens` and `pen` are the same word). Normalized words by stemming them using an online stemmer such as http://www.nltk.org/howto/stem.html.
 
